@@ -13,4 +13,5 @@ Primitive Data Types
 String Class Methods
 Escape Character
 Adding Comments in Your Code
+List Datatype - Collections in Apex
     
