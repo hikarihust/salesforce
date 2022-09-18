@@ -9,4 +9,5 @@ Salesforce setup
                                         Apex Fundamentals
 
 Hello World - Your First Ever Apex Code
+Primitive Data Types
     
