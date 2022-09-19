@@ -34,4 +34,5 @@ Challenge - Do-While Loop
 While Loop
 Challenge - While Loop
 For Loop
+Challenge - For Loop
     
