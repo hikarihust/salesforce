@@ -36,4 +36,5 @@ Challenge - While Loop
 For Loop
 Challenge - For Loop
 Break Statement - Breaking a Loop
+Continue Statement - Skipping Loop Iteration
     
