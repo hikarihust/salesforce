@@ -73,4 +73,5 @@ Understand SOQL
 WHERE ClauseAND and OR Operators
 IN and LIKE Operators
 ORDER BY Clause
+LIMIT and OFFSET
     
