@@ -75,4 +75,5 @@ IN and LIKE Operators
 ORDER BY Clause
 LIMIT and OFFSET
 Date Literals
+Challenge - SOQL
     
