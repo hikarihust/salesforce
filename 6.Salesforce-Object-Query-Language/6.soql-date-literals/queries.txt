@@ -1,0 +1,11 @@
+// Get all leads created on 17th September 2022
+SELECT Name, Status, LeadSource, Company, Email, CreatedDate FROM Lead WHERE CreatedDate>2022-09-17T00:00:00.000+0000 AND CreatedDate<2022-09-17T23:59:59.999+0000
+
+// Get all leads created today
+SELECT Name, Status, LeadSource, Company, Email, CreatedDate FROM Lead WHERE CreatedDate=TODAY
+
+// Get all leads created after yesterday
+SELECT Name, Status, LeadSource, Company, Email, CreatedDate FROM Lead WHERE CreatedDate>YESTERDAY
+
+// Get all leads created in last 10 days
+SELECT Name, Status, LeadSource, Company, Email, CreatedDate FROM Lead WHERE CreatedDate=LAST_N_DAYS:10
