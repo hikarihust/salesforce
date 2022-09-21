@@ -70,4 +70,5 @@ Challenge - Apex Tests
 
 Salesforce Objects and Fields Overview
 Understand SOQL
+WHERE ClauseAND and OR Operators
     
