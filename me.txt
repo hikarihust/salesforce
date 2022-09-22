@@ -77,4 +77,5 @@ LIMIT and OFFSET
 Date Literals
 Challenge - SOQL
 Parent to Child Relationship Queries
+Child to Parent Relationship Queries
     
