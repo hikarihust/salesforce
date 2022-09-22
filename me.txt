@@ -80,4 +80,5 @@ Parent to Child Relationship Queries
 Child to Parent Relationship Queries
 Challenge 2 - SOQL
 SOQL in Apex
+SOQL Relationships in Apex
     
