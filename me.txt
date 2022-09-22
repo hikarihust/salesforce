@@ -75,7 +75,8 @@ IN and LIKE Operators
 ORDER BY Clause
 LIMIT and OFFSET
 Date Literals
-Challenge - SOQL
+Challenge 1 - SOQL
 Parent to Child Relationship Queries
 Child to Parent Relationship Queries
+Challenge 2 - SOQL
     
