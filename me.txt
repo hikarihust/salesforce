@@ -90,4 +90,5 @@ Dynamic SOQL Queries
 
 Insert Operation
 DML Logs Discussion
+Database Methods vs DML Statements
     
