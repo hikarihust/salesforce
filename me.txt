@@ -81,4 +81,5 @@ Child to Parent Relationship Queries
 Challenge 2 - SOQL
 SOQL in Apex
 SOQL Relationships in Apex
+SOQL Bind Variables
     
