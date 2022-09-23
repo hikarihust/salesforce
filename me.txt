@@ -82,4 +82,5 @@ Challenge 2 - SOQL
 SOQL in Apex
 SOQL Relationships in Apex
 SOQL Bind Variables
+Dynamic SOQL Queries
     
