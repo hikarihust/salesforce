@@ -94,4 +94,5 @@ Database Methods vs DML Statements
 Update Operation
 Delete and Undelete Operations
 Get Fields with SObject
+Get Parent Object using SOjbect
     
