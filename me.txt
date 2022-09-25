@@ -98,3 +98,9 @@ Get Parent Object using SOjbect
 Create New SObject Record
 Challenge - DML
     
+    =================================================================================================
+
+                                        Exception Handling
+
+What is an Exception
+    
