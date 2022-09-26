@@ -1,0 +1,16 @@
+// Example 1
+// insert single account
+Account singleAccount = new Account(Name='Single Test Account');
+insert singleAccount;
+
+// Example 2
+// insert multiple accounts
+List<Account> multipleAccounts = new List<Account>();
+for(Integer i=0; i<100; i++){
+    multipleAccounts.add(new Account(Name='Multiple Test Account ' + String.valueOf(i)));
+}
+insert multipleAccounts;
+
+// Example 3
+// delete multiple accounts
+delete [SELECT Id FROM Account WHERE Name LIKE '%test%'];
