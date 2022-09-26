@@ -107,3 +107,9 @@ Try, Catch and Finally
 Exception Methods
 Throw a Custom Exception
     
+    =================================================================================================
+
+                                        VS Code Setup
+
+Install
+    
