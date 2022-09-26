@@ -115,3 +115,9 @@ Install
 VS Code Org Setup
 Work with Salesforce Metadata
     
+    =================================================================================================
+
+                                        Governors Limits and Code Bulkification
+
+Governor Limits Overview
+    
