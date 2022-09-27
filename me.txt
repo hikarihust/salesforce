@@ -125,4 +125,5 @@ Governor Limit Scenario
 SOQL 101 Limit
 DML Operation Limit
 CPU Timeout Exception
+Limits Class
     
