@@ -137,4 +137,5 @@ Contact Tracing Data Model and Features
 CT Deploy Metadata
 CT Challenge 1 - Create Apex Classes
 CT Challenge 2 - CTPersonController Class
+CT Challenge 3 - CTLocationController Class
     
