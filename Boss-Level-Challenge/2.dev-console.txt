@@ -1,0 +1,12 @@
+Location_Tracing__c trace1 = new Location_Tracing__c(Person__c='a095g000003tNpDAAU', Location__c='a075g000007JXF2AAO');
+Location_Tracing__c trace2 = new Location_Tracing__c(Person__c='a095g000003tNp8AAE', Location__c='a075g000007JX2tAAG');
+Location_Tracing__c trace3 = new Location_Tracing__c(Person__c='a095g000003tNpDAAU', Location__c='a075g000007JX2tAAG');
+
+List<Location_Tracing__c> traces = new List<Location_Tracing__c>();
+traces.add(trace1);
+traces.add(trace2);
+traces.add(trace3);
+
+List<Location_Tracing__c> duplicates = CTLocationTracingController.checkDuplicates(traces);
+System.debug('Duplicate: ' + duplicates);
+System.debug('Duplicate size: ' + duplicates.size());

@@ -1,0 +1,12 @@
+People_Tracing__c trace1 = new People_Tracing__c(Person_1__c='a095g000003tNpDAAU', Person_2__c='a095g000003tNp8AAE');
+People_Tracing__c trace2 = new People_Tracing__c(Person_1__c='a095g000003tNp8AAE', Person_2__c='a095g000003tNpDAAU');
+People_Tracing__c trace3 = new People_Tracing__c(Person_1__c='a095g000003tNpIAAU', Person_2__c='a095g000003tNpSAAU');
+
+List<People_Tracing__c> traces = new List<People_Tracing__c>();
+traces.add(trace1);
+traces.add(trace2);
+traces.add(trace3);
+
+List<People_Tracing__c> duplicates = CTPeopleTracingController.checkDuplicates(traces);
+System.debug('Duplicate: ' + duplicates);
+System.debug('Duplicate size: ' + duplicates.size());

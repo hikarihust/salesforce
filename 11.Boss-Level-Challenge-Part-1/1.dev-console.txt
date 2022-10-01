@@ -1,4 +1,0 @@
-String mobileNo = '909038834783';
-String uniqueTo = CTPersonController.getToken(mobileNo);
-
-System.debug(uniqueTo);
