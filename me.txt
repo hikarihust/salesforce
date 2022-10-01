@@ -139,4 +139,5 @@ CT Challenge 1 - Create Apex Classes
 CT Challenge 2 - CTPersonController Class
 CT Challenge 3 - CTLocationController Class
 CT Challenge 4 - CTLocationTracingController Class
+CT Challenge 5 - CTLocationTracingController Class
     
