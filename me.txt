@@ -157,4 +157,5 @@ SOQL For Loops
                                         Boss Level Challenge - Part 2
 
 CT Challenge 7 - CTPersonController
+CT Challenge 8 - CTLocationController
     

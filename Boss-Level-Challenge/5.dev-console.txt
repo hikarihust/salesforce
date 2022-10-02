@@ -1,0 +1,2 @@
+Map<String, Integer> healthCountMap = CTLocationController.getStatusCount();
+System.debug('Health Count Map: ' + healthCountMap);
