@@ -166,4 +166,5 @@ CT Challenge 8 - CTLocationController
 Trigger overview
 Write Your First Automation
 Trigger Events
+Validations and Throwing Errors in Trigger
     
