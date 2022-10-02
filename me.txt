@@ -165,4 +165,5 @@ CT Challenge 8 - CTLocationController
 
 Trigger overview
 Write Your First Automation
+Trigger Events
     
