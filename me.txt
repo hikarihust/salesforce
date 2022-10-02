@@ -147,4 +147,5 @@ CT Challenge 6 - CTPeopleTracingController Class
                                         Advanced SOQL
 
 Aggregate Functions
+GROUP BY Clause
     
