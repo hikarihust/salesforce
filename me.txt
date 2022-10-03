@@ -167,4 +167,5 @@ Trigger overview
 Write Your First Automation
 Trigger Events
 Validations and Throwing Errors in Trigger
+Deactivate a Trigger
     
