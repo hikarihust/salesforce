@@ -175,4 +175,5 @@ Trigger Context Variables - Part 3
 Trigger Context Variables - Part 4
 Improving Code
 Before vs After Triggers
+Bulkification of Trigger Logic
     

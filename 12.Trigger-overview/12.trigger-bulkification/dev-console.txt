@@ -1,0 +1,9 @@
+// Insert multiple leads
+List<Lead> multipleLeads = new List<Lead>();
+for(Integer i=0; i<1000; i++){
+    multipleLeads.add(new Lead(LastName='Test Lead Single', Status='Open - Not Contacted', Company='SFDCFacts', Industry='Finance'));
+}
+System.debug('Trigger size: '+ Trigger.size);
+System.debug('is trigger: '+ Trigger.isExecuting);
+System.debug('Operation type: '+ Trigger.operationType);
+insert multipleLeads;
