@@ -182,3 +182,9 @@ Calling Apex Class Methods from Trigger
 Recursive Trigger Problem Solution
 Trigger Challenge
     
+    =================================================================================================
+
+                                        Boss Level Challenge - Part 3
+
+CT Challenge 9 - Person Trigger
+    
