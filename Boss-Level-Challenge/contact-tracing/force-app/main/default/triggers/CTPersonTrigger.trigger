@@ -22,6 +22,9 @@ trigger CTPersonTrigger on Person__c (before insert, after insert, before update
         when BEFORE_UPDATE {
             CTPersonTriggerHandler.beforeUpdate(Trigger.new, Trigger.oldMap);
         }
+        when AFTER_UPDATE {
+            CTPersonTriggerHandler.afterUpdate(Trigger.new, Trigger.oldMap);
+        }
     }
 
 }

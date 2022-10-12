@@ -187,4 +187,5 @@ Trigger Challenge
                                         Boss Level Challenge - Part 3
 
 CT Challenge 9 - Person Trigger
+CT Challenge 10 - Enhance Person Trigger
     
