@@ -191,4 +191,5 @@ CT Challenge 10 - Enhance Person Trigger
 CT Challenge 11 - Location Trigger
     sfdx force:org:display
 CT Challenge 12 - Enhance Location Trigger
+CT Challenge 13 - People Tracing Trigger
     
