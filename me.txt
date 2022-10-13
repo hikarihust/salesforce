@@ -188,4 +188,6 @@ Trigger Challenge
 
 CT Challenge 9 - Person Trigger
 CT Challenge 10 - Enhance Person Trigger
+CT Challenge 11 - Location Trigger
+    sfdx force:org:display
     
