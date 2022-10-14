@@ -203,4 +203,5 @@ Bulk Test
     sfdx force:apex:test:run --tests ContactTriggerHandlerTest
     sfdx force:apex:test:run --tests ContactTriggerHandlerTest --resultformat human -c
 StartTest and StopTest
+Test Setup Method
     
