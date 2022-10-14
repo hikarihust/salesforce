@@ -90,7 +90,7 @@ public with sharing class ContactTriggerHandlerTest {
         List<Contact> allContacts = [SELECT Id FROM Contact];
         System.assertEquals(1003, allContacts.size());
     }
-    
+
     @isTest
     public static void afterUpdateHandlerTest1() {
         List<Account> testAccounts = new List<Account>();
