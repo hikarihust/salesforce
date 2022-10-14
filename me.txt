@@ -200,4 +200,6 @@ CT Challenge 14 - Location Tracing Trigger
 
 Apex Test Data
 Bulk Test
+    sfdx force:apex:test:run --tests ContactTriggerHandlerTest
+    sfdx force:apex:test:run --tests ContactTriggerHandlerTest --resultformat human -c
     
