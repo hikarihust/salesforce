@@ -206,4 +206,10 @@ StartTest and StopTest
 Test Setup Method
 seeAllData=true
 Finish Test Class
+
+    =================================================================================================
+
+                                        Aura Framework
+
+Hello World Component
     
