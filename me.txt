@@ -212,4 +212,5 @@ Finish Test Class
                                         Aura Framework
 
 Hello World Component
+Component Library
     
