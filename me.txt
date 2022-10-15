@@ -213,4 +213,5 @@ Finish Test Class
 
 Hello World Component
 Component Library
-    
+Building Board Panel Component
+        
