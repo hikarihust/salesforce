@@ -219,4 +219,5 @@ Attributes in Aura Component
     (lwc component: sfdx force:source:retrieve -m LightningComponentBundle:helloWorld)
 Layouts
 Handling Browser Events
+Aura Id
     
