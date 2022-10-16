@@ -220,4 +220,5 @@ Attributes in Aura Component
 Layouts
 Handling Browser Events
 Aura Id
+Access Attributes in Javascript
     

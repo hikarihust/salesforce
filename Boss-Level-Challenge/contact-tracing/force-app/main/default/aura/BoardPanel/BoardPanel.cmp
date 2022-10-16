@@ -9,6 +9,8 @@
     ]"
     />
 
+    <aura:attribute name="selectedMode" type="String" />
+
     <lightning:card title="Word Shuffle">
         <lightning:layout horizontalAlign="center">
             <lightning:layoutItem padding="around-small">
@@ -35,5 +37,7 @@
                 <lightning:button label="Reshuffle" title="Reshuffle" onclick="{!c.reshuffleBoard}" />
             </lightning:layoutItem>
         </lightning:layout>
+
+        Selected mode is : {!v.selectedMode}
     </lightning:card>
 </aura:component>
