@@ -10,10 +10,23 @@
     />
 
     <lightning:card title="Word Shuffle">
-        <lightning:combobox name="gameMode" label="Game Mode" value="" options="{!v.modes}" placeholder="Select Game Mode" />
-
-        <lightning:button variant="brand" label="Start New Game" title="Start New Game" />
-
-        <lightning:button label="Reshuffle" title="Reshuffle" />
+        <lightning:layout horizontalAlign="center">
+            <lightning:layoutItem padding="around-small">
+                <lightning:combobox
+                    name="gameMode"
+                    label="Game Mode"
+                    value=""
+                    variant="label-hidden"
+                    options="{!v.modes}"
+                    placeholder="Select Game Mode"
+                />
+            </lightning:layoutItem>
+            <lightning:layoutItem padding="around-small">
+                <lightning:button variant="brand" label="Start New Game" title="Start New Game" />
+            </lightning:layoutItem>
+            <lightning:layoutItem padding="around-small">
+                <lightning:button label="Reshuffle" title="Reshuffle" />
+            </lightning:layoutItem>
+        </lightning:layout>
     </lightning:card>
 </aura:component>

@@ -217,4 +217,5 @@ Building Board Panel Component
 Attributes in Aura Component
     sfdx force:source:retrieve -m AuraDefinitionBundle:HelloWorld
     (lwc component: sfdx force:source:retrieve -m LightningComponentBundle:helloWorld)
+Layouts
     
