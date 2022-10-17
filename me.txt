@@ -226,4 +226,5 @@ Board Component
 Component Lifecycle
     Init event được chạy trước, sau đó mới đến render event
     Init event chạy khi component được khởi tạo, page và component chưa được render
+Helper File
     
