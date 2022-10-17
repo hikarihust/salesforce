@@ -228,4 +228,5 @@ Component Lifecycle
     Init event chạy khi component được khởi tạo, page và component chưa được render
 Helper File
 Applying Styles
+Loops in Aura
     
