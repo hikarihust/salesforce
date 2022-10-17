@@ -1,4 +1,7 @@
 <aura:component implements="flexipage:availableForAllPageTypes">
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <aura:handler name="render" value="{!this}" action="{!c.doRender}" /> 
+
     <lightning:layout multipleRows="true">
         <!--Layout content goes here -->
         <lightning:layoutItem size="4" padding="around-small"> 1 </lightning:layoutItem>
