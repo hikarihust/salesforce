@@ -37,10 +37,6 @@
                 <lightning:button label="Reshuffle" title="Reshuffle" onclick="{!c.reshuffleBoard}" />
             </lightning:layoutItem>
         </lightning:layout>
-
-        <!-- Bound expression -->
-        <p>Selected mode is : {!v.selectedMode}</p>
-        <!-- Unbound expression-->
-        <p>Selected mode is : {#v.selectedMode}</p>
     </lightning:card>
+    <c:Board mode="{!v.selectedMode}"></c:Board>
 </aura:component>
