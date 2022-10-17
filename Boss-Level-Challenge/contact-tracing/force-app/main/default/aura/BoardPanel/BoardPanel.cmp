@@ -38,6 +38,9 @@
             </lightning:layoutItem>
         </lightning:layout>
 
-        Selected mode is : {!v.selectedMode}
+        <!-- Bound expression -->
+        <p>Selected mode is : {!v.selectedMode}</p>
+        <!-- Unbound expression-->
+        <p>Selected mode is : {#v.selectedMode}</p>
     </lightning:card>
 </aura:component>
