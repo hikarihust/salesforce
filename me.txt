@@ -233,4 +233,5 @@ Composition and Public Attributes
 If-else
 Block Component
 Component Event
+Disable Board Component
     
