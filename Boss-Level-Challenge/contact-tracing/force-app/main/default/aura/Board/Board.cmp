@@ -12,6 +12,8 @@
     <!-- <aura:handler name="render" value="{!this}" action="{!c.doRender}" /> -->
     <!-- <aura:handler name="onclick" event="c:BlockClickEvent" action="{!c.blockClickHandler}" /> -->
 
+    <aura:method name="startGame" action="{!c.doInit}" description="Start new game"> </aura:method>
+
     <div class="board">
         <lightning:layout>
             <lightning:layoutItem padding="around-small">
