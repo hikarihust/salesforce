@@ -10,7 +10,10 @@
     />
 
     <aura:attribute name="selectedMode" type="String" />
+    <aura:attribute name="reshuffleDisabled" type="Boolean" default="true" />
 
+    <aura:handler event="c:ResultApplicationEvent" action="{!c.onResultHandler}" />
+    
     <lightning:card title="Word Shuffle">
         <lightning:layout horizontalAlign="center" multipleRows="true">
             <lightning:layoutItem padding="around-small">
@@ -34,7 +37,7 @@
                 />
             </lightning:layoutItem>
             <lightning:layoutItem padding="around-small">
-                <lightning:button label="Reshuffle" title="Reshuffle" onclick="{!c.reshuffleBoard}" />
+                <lightning:button label="Reshuffle" title="Reshuffle" disabled="{!v.reshuffleDisabled}" onclick="{!c.reshuffleBoard}" />
             </lightning:layoutItem>
 
             <aura:if isTrue="{! (v.selectedMode != null)}">
