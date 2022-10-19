@@ -235,4 +235,5 @@ Block Component
 Component Event
 Disable Board Component
 Aura Methods
+Static Resource
     
