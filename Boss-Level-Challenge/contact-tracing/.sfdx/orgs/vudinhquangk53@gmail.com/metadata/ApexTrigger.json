@@ -1,0 +1,96 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "0055g00000EjhCCAAZ",
+      "createdByName": "Quang Vu Dinh",
+      "createdDate": "2022-10-02T12:20:51.000Z",
+      "fileName": "triggers/LeadTrigger.trigger",
+      "fullName": "LeadTrigger",
+      "id": "01q5g000000dwF4AAI",
+      "lastModifiedById": "0055g00000EjhCCAAZ",
+      "lastModifiedByName": "Quang Vu Dinh",
+      "lastModifiedDate": "2022-10-04T10:30:07.000Z",
+      "manageableState": "unmanaged",
+      "type": "ApexTrigger"
+    },
+    {
+      "createdById": "0055g00000EjhCCAAZ",
+      "createdByName": "Quang Vu Dinh",
+      "createdDate": "2022-10-05T15:43:16.000Z",
+      "fileName": "triggers/ContactTrigger.trigger",
+      "fullName": "ContactTrigger",
+      "id": "01q5g000000dxOUAAY",
+      "lastModifiedById": "0055g00000EjhCCAAZ",
+      "lastModifiedByName": "Quang Vu Dinh",
+      "lastModifiedDate": "2022-10-05T15:43:16.000Z",
+      "manageableState": "unmanaged",
+      "type": "ApexTrigger"
+    },
+    {
+      "createdById": "0055g00000EjhCCAAZ",
+      "createdByName": "Quang Vu Dinh",
+      "createdDate": "2022-10-13T15:40:58.000Z",
+      "fileName": "triggers/CTLocationTracingTrigger.trigger",
+      "fullName": "CTLocationTracingTrigger",
+      "id": "01q5g000000e0XVAAY",
+      "lastModifiedById": "0055g00000EjhCCAAZ",
+      "lastModifiedByName": "Quang Vu Dinh",
+      "lastModifiedDate": "2022-10-13T15:40:58.000Z",
+      "manageableState": "unmanaged",
+      "type": "ApexTrigger"
+    },
+    {
+      "createdById": "0055g00000EjhCCAAZ",
+      "createdByName": "Quang Vu Dinh",
+      "createdDate": "2022-10-13T07:55:45.000Z",
+      "fileName": "triggers/CTLocationTrigger.trigger",
+      "fullName": "CTLocationTrigger",
+      "id": "01q5g000000e0FYAAY",
+      "lastModifiedById": "0055g00000EjhCCAAZ",
+      "lastModifiedByName": "Quang Vu Dinh",
+      "lastModifiedDate": "2022-10-13T08:41:44.000Z",
+      "manageableState": "unmanaged",
+      "type": "ApexTrigger"
+    },
+    {
+      "createdById": "0055g00000EjhCCAAZ",
+      "createdByName": "Quang Vu Dinh",
+      "createdDate": "2022-10-13T09:30:11.000Z",
+      "fileName": "triggers/CTPeopleTracingTrigger.trigger",
+      "fullName": "CTPeopleTracingTrigger",
+      "id": "01q5g000000e0KyAAI",
+      "lastModifiedById": "0055g00000EjhCCAAZ",
+      "lastModifiedByName": "Quang Vu Dinh",
+      "lastModifiedDate": "2022-10-13T09:30:11.000Z",
+      "manageableState": "unmanaged",
+      "type": "ApexTrigger"
+    },
+    {
+      "createdById": "0055g00000EjhCCAAZ",
+      "createdByName": "Quang Vu Dinh",
+      "createdDate": "2022-10-10T12:58:34.000Z",
+      "fileName": "triggers/CTPersonTrigger.trigger",
+      "fullName": "CTPersonTrigger",
+      "id": "01q5g000000dymIAAQ",
+      "lastModifiedById": "0055g00000EjhCCAAZ",
+      "lastModifiedByName": "Quang Vu Dinh",
+      "lastModifiedDate": "2022-10-13T02:43:25.000Z",
+      "manageableState": "unmanaged",
+      "type": "ApexTrigger"
+    },
+    {
+      "createdById": "0055g00000EjhCCAAZ",
+      "createdByName": "Quang Vu Dinh",
+      "createdDate": "2022-10-03T05:15:14.000Z",
+      "fileName": "triggers/LeadTrigger2.trigger",
+      "fullName": "LeadTrigger2",
+      "id": "01q5g000000dwGMAAY",
+      "lastModifiedById": "0055g00000EjhCCAAZ",
+      "lastModifiedByName": "Quang Vu Dinh",
+      "lastModifiedDate": "2022-10-03T05:15:25.000Z",
+      "manageableState": "unmanaged",
+      "type": "ApexTrigger"
+    }
+  ]
+}
