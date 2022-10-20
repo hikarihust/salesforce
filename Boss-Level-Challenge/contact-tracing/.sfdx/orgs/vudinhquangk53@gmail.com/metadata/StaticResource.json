@@ -1,0 +1,16 @@
+{
+  "status": 0,
+  "result": {
+    "createdById": "0055g00000EjhCCAAZ",
+    "createdByName": "Quang Vu Dinh",
+    "createdDate": "2022-10-19T04:17:01.000Z",
+    "fileName": "staticresources/FitText.resource",
+    "fullName": "FitText",
+    "id": "0815g000000wNwOAAU",
+    "lastModifiedById": "0055g00000EjhCCAAZ",
+    "lastModifiedByName": "Quang Vu Dinh",
+    "lastModifiedDate": "2022-10-19T04:17:01.000Z",
+    "manageableState": "unmanaged",
+    "type": "StaticResource"
+  }
+}
