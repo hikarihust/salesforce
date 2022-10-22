@@ -54,22 +54,6 @@ public with sharing class CTPersonController {
         return null;
     }
     
-    /**
-     * Get count of people in each health status
-     * @return Map<String, Integer>
-     */
-    public static Map<String, Integer> getHealthStatusCount() {
-        Map<String, Integer> healthCountMap = new Map<String, Integer>();
-        for(AggregateResult ar : [SELECT Health_Status__c, COUNT(Id) total 
-                                    FROM Person__c 
-                                    GROUP BY Health_Status__c]){
-            String healthStatus = String.valueOf(ar.get('Health_Status__c'));
-            Integer count = Integer.valueOf(ar.get('total'));
-            healthCountMap.put(healthStatus, count);
-        }
-        return healthCountMap;
-    }
-
     public static Set<Id> getCohabitants(Set<Id> personIds, Set<Id> alreadyProcessed){
         List<String> healthStatuses = new List<String>{'Green', 'Yellow'};
         List<People_Tracing__c> peopleTraces = [SELECT Id, Person_1__c, Person_2__c FROM People_Tracing__c 
@@ -152,4 +136,16 @@ public with sharing class CTPersonController {
         return secondaryContacts;
     }
 
+    public static Map<String, Integer> getHealthStatusCount(){
+        AggregateResult[] healthCountMap = [SELECT Health_Status__c, Count(Id) total FROM Person__c GROUP BY Health_Status__c];
+
+        if(healthCountMap != null && healthCountMap.size() > 0){
+            Map<String, Integer> result = new Map<String, Integer>();
+            for(AggregateResult ar : healthCountMap){
+                result.put(String.valueOf(ar.get('Health_Status__c')), Integer.valueOf(ar.get('total')));
+            }
+            return result;
+        }
+        return null;
+    }
 }
