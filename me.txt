@@ -253,4 +253,6 @@ CT Challenge 17 - Make Interactive With Javascript
 CT Challenge 18 - Health Header Apex Controller
 CT Challenge 19 - Fix Bug With Aura Method
 CT Challenge 20 - Recent Changes Apex Controller
+CT Challenge 21 - Datatable
+CT Challenge 22 - Dynamic Datatable
     
