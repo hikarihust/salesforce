@@ -256,4 +256,7 @@ CT Challenge 20 - Recent Changes Apex Controller
 CT Challenge 21 - Datatable
 CT Challenge 22 - Dynamic Datatable
 CT Challenge 23 - Row Actions in Datatable
+CT Challenge 24 - Application Event
+CT Challenge 25 - RecordForm Component - Location View
+CT Challenge 26 - RecordForm Component - Person View
     
