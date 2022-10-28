@@ -259,4 +259,5 @@ CT Challenge 23 - Row Actions in Datatable
 CT Challenge 24 - Application Event
 CT Challenge 25 - RecordForm Component - Location View
 CT Challenge 26 - RecordForm Component - Person View
+CT Challenge 27 - Person Tab Apex Controller
     
