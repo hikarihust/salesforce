@@ -36,12 +36,14 @@ public with sharing class CTPersonTabController {
                     cc.status = trace.Person_1__r.Health_Status__c;
                     cc.token = trace.Person_1__r.Token__c;
                     cc.contactDate = trace.Contact_Date__c;
+                    uniqueIds.add(trace.Person_1__c);
                 }
                 if (!uniqueIds.contains(trace.Person_2__c)) {
                     cc.id = trace.Person_2__c;
                     cc.status = trace.Person_2__r.Health_Status__c;
                     cc.token = trace.Person_2__r.Token__c;
                     cc.contactDate = trace.Contact_Date__c;
+                    uniqueIds.add(trace.Person_2__c);
                 }
                 closeContacts.add(cc);
             }
