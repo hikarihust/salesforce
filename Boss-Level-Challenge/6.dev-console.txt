@@ -1,0 +1,5 @@
+CTDataCleanupSchedule dataCleanUp = new CTDataCleanupSchedule();
+//String jobId = System.schedule('Data clean up Job', CTDataCleanupSchedule.CRON, dataCleanUp);
+//System.debug('Job Id: ' + jobId);
+
+dataCleanUp.execute(null);
