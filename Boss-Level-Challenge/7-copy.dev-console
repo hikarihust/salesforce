@@ -1,0 +1,5 @@
+CTStatusUpdateSchedule updateSchedule = new CTStatusUpdateSchedule();
+//String jobId = System.schedule('Status Update Job', CTStatusUpdateSchedule.CRON, updateSchedule);
+//System.debug('Job Id: ' + jobId);
+
+updateSchedule.execute(null);
