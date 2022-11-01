@@ -280,4 +280,5 @@ Scheduled Apex
 CT Challenge 31 - People Tracing Data Cleanup
 CT Challenge 32 - Location Tracing Data Cleanup
 CT Challenge 33 - Auto Health Update of Person Records
+CT Challenge 34 - Auto Health Update of Location Records
     
